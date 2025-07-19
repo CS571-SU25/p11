@@ -1,0 +1,14 @@
+.banner {
+  background: linear-gradient(270deg, #007700, #ff0000);
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  animation: pulse 2s infinite alternate ease-in-out;
+  border-radius: 10px;
+}
+@keyframes pulse {
+  0% { filter: brightness(100%); }
+  100% { filter: brightness(85%); }
+}

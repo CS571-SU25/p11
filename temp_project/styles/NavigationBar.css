@@ -1,0 +1,18 @@
+/* Style navbar if needed */
+
+.refined-banner {
+  background: linear-gradient(90deg, #198754, #157347, #198754);
+  color: white;
+  animation: bannerPulse 4s ease-in-out infinite;
+}
+
+@keyframes bannerPulse {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.banner-accessible {
+  background: linear-gradient(90deg, #198754, #003366);
+  color: #ffffff;
+  font-weight: bold;
+}

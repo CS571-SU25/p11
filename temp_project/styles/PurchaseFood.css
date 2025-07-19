@@ -1,0 +1,26 @@
+/* Style purchase food section */
+.food-thumbnail {
+  max-width: 100%;
+  width: 80px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .food-thumbnail {
+    width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .food-thumbnail {
+    width: 50px;
+  }
+}
+
+.food-thumbnail:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
